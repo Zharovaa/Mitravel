@@ -1,0 +1,225 @@
+.grid {
+    display: grid;
+}
+.insp{
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+
+.insp__list {
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(500px, auto);
+    grid-template-columns: repeat(1fr);
+}
+
+.insp__item {
+    background-color: red;
+    border-radius:8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    
+}
+.insp__item::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:65%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+}
+.insp__text{
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index:5;
+    padding: 0 40px;
+    padding-bottom:47px;
+}
+.insp__people-item:not(:first-child){
+    margin-left:-15px;
+}
+.insp__people-item-1:not(:first-child){
+    margin-left:-15px;
+}
+
+.insp__heading{
+    margin-bottom: 25px;
+}
+.insp__descr{
+ text-align:center;
+ margin:0 auto;
+ font-family: "SFCompact",sans-serif;
+font-size: 16px;
+line-height: 24px;
+margin-bottom:95px;
+
+text-align: center;
+
+color: #788692;
+max-width:635px;
+font-size: 16px;
+color: #788692;
+
+}
+.insp__category{
+    
+font-family: "SFProDisplay",sans-serif;
+font-size: 10px;
+letter-spacing: 1.1px;
+text-decoration: none;
+text-transform: uppercase;
+
+color: #FFFFFF;
+display:inline-block;
+margin-bottom: 10px;
+}
+
+.insp__title-header{
+    font-family: "SFProDisplay",sans-serif;
+font-size: 10px;
+font-weight: 700;
+
+text-align: center;
+letter-spacing: 1.1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+padding-top:262px;
+}
+
+.insp__paragraph{
+   font-family:'Playfair',sans-serif;
+   font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+display:flex;
+flex-direction: column;
+align-items:center;
+margin-left:79px;
+
+color: #FFFFFF;
+}
+.insp__title{
+    font-family: "SFProDisplay",sans-serif;
+font-size: 32px;
+font-weight:700;
+color: #FFFFFF;
+margin-bottom:25px;
+line-height:40px;
+}
+.insp__avatar-insp:not(:first-child){
+    margin-left:-15px;
+}
+
+.insp__play{
+    background-image: url("../img/play.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:64px;
+    height:64px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.insp__title-title{
+    text-decoration:none;
+    font-family: "SFProDisplay",sans-serif;
+font-size: 32px;
+color: #FFFFFF;
+}
+.insp__people{
+    display:flex;
+}
+.insp__paragraph{
+    padding-top:20px;
+    width:70%;
+    text-align:center;
+
+}
+.insp__item--5{
+display:flex;
+flex-direction: column;
+
+}
+
+.insp__avatar-insp{
+    overflow:hidden;
+    border-radius: 100%;
+    border: 4px solid #FFFFFF;
+    width:48px;
+    height:48px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+    
+}
+.insp__avatar{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top:166px;
+    z-index:6;
+}
+
+.insp__people-item{
+overflow:hidden;
+border-radius: 100%;
+border: 4px solid #FFFFFF;
+width:48px;
+height:48px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.insp__people-item-1{
+    overflow:hidden;
+    border-radius: 100%;
+    border: 4px solid #FFFFFF;
+    width:48px;
+    height:48px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.insp__item--big {
+    grid-column-end: span 2;
+}
+
+.insp__item--bigheight {
+    height:710px;
+}
+.insp__item--1{
+    background-image: url("../img/insp-1.jpg");
+}
+.insp__item--2{
+    background-image: url("../img/insp-2.jpg");
+}
+.insp__item--3{
+    background-image: url("../img/insp-3.jpg");
+}
+.insp__item--4{
+    background-image: url("../img/insp-4.jpg");
+}
+.insp__item--5{
+    background-image: url("../img/insp-5.jpg");
+}
+.insp__item--6{
+    background-image: url("../img/insp-6.jpg");
+}
+.insp__item--7{
+    background-image: url("../img/insp-7.jpg");
+}
